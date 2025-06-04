@@ -4,7 +4,7 @@ import os
 # Bot token from BotFather
 BOT_TOKEN = os.environ.get("BOT_TOKEN") or "8183569140:AAFqlUyLLPSl_i9CFFogdcYLA8Z_L10XFdY"
 # Your Telegram user ID for access control
-OWNER_ID = 7226711341  # <-- Replace this with your real Telegram ID
+OWNER_ID = XXXXXXXXXX  # <-- Replace this with your real Telegram ID
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
